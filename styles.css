@@ -115,34 +115,34 @@ p {
   }
   
   .wrapper > * {
-    padding: 10px;
+    padding: 1px;
     flex: 1 100%;
   }
   
   .header {
-    background: rgba(40, 40, 40, 0);
+    background: rgba(18, 206, 81, 0.493);
   }
   
   .main {
     text-align: center;
-    background: rgba(255, 255, 255, 0);
+    background: rgba(80, 90, 226, 0.247);
   }
   
   .aside-1 {
-    background: rgba(40, 40, 40, 0);
+    background: rgba(231, 43, 184, 0.493);
   }
   
   .aside-2 {
-    background: rgba(40, 40, 40, 0);
+    background: rgba(202, 245, 11, 0.466);
   }
   
   .footer {
-    background: rgba(40, 40, 40, 0);
+    background: rgba(238, 10, 10, 0.479);
     font-size: 1.5em;
   }
 
   .subfooter {
-    background: rgba(87, 26, 184, 0);
+    background: rgb(87, 26, 184);
   }
 
   @media all and (min-width: 600px) {
