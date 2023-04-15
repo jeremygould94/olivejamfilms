@@ -16,23 +16,22 @@ h2 {
     font-size: 2em;
 }
 
+h3 {
+    color: rgb(50, 50, 50);
+    font-family: "Georgia", Georgia, serif;
+    font-size: 1.5em; 
+}
+
 p {
     color: rgb(50, 50, 50);
     font-family: "Georgia", Georgia, serif;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 /* about us images */
-.jeremy_cover img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    overflow: hidden;
-}
-
-.kat_cover img {
-    width: 100%;
-    height: 100%;
+.cover_img img {
+    width: 80%;
+    height: 80%;
     object-fit: cover;
     overflow: hidden;
 }
@@ -52,7 +51,7 @@ p {
     text-decoration: none;
     display: block;
     padding: 1em;
-    font-size: 1.1em;
+    font-size: 1em;
     font-family: "Georgia", Georgia, serif;
     color: white;
   }
@@ -82,14 +81,21 @@ p {
     }
   }
 
-  @media all and (max-width: 1080px) {
+  @media all and (max-width: 1100px) {
     .navigation {
       justify-content: space-around;
       font-size: 2em;
     }
   }
   
-  @media all and (max-width: 850px) {
+  @media all and (max-width: 800px) {
+    .navigation {
+        justify-content: space-around;
+        font-size: 1.5em;
+      }
+  }
+
+  @media all and (max-width: 630px) {
     .navigation {
         justify-content: space-around;
         font-size: 1em;
@@ -121,7 +127,6 @@ p {
   .main {
     text-align: center;
     background: rgba(0, 191, 255, 0.5);
-    font-size: 1.5em;
   }
   
   .aside-1 {
@@ -137,25 +142,31 @@ p {
     font-size: 1.5em;
   }
 
+  .subfooter {
+    background: rgba(86, 26, 184, 0.5);
+  }
+
   @media all and (min-width: 600px) {
     .aside { flex: 0.5 0 0; }
     .footer { font-size: 1.5em; }
   }
   
   @media all and (min-width: 800px) {
-    .main    { flex: 5 0px; font-size: 2em; }
+    .main    { flex: 5 0px; font-size: 1.5em; }
     .aside-1 { order: 1; } 
     .main    { order: 2; }
     .aside-2 { order: 3; }
     .footer  { order: 4; font-size: 1.4em; }
+    .subfooter { order: 5; }
   }
 
   @media all and (min-width: 1080px) {
-    .main    { flex: 2 0px; font-size: 2em; }
+    .main    { flex: 2 0px; font-size: 1.5em; }
     .aside-1 { order: 1; } 
     .main    { order: 2; }
     .aside-2 { order: 3; }
     .footer  { order: 4; font-size: 1.3em; }
+    .subfooter { order: 5; }
   }
 
   @media all and (min-width: 1350px) {
@@ -164,6 +175,7 @@ p {
     .main    { order: 2; }
     .aside-2 { order: 3; }
     .footer  { order: 4; font-size: 1.2em; }
+    .subfooter { order: 5; }
   }
 
   @media all and (min-width: 2000px) {
@@ -172,6 +184,7 @@ p {
     .main    { order: 2; }
     .aside-2 { order: 3; }
     .footer  { order: 4; font-size: 1.1em; }
+    .subfooter { order: 5; }
   }
 
   @media all and (min-width: 2400px) {
@@ -180,6 +193,7 @@ p {
     .main    { order: 2; }
     .aside-2 { order: 3; }
     .footer  { order: 4; font-size: 1em; }
+    .subfooter { order: 5; }
   }
   
   body {
