@@ -28,6 +28,14 @@ p {
     font-size: 1.3em;
 }
 
+.div_righttext {
+  text-align: right;
+}
+
+.div_lefttext {
+  text-align: left;
+}
+
 /* about us images */
 .cover_img img {
     width: 100%;
