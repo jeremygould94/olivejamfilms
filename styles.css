@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(250, 250, 250);
+  }
+
+h1 {
+    color: rgb(134, 170, 136);
+    font-family: "Georgia", Georgia, serif;
+    font-size: 4em;
+}
+
+h2 {
+    color: rgb(50, 50, 50);
+    font-family: "Georgia", Georgia, serif;
+    font-size: 2em;
+}
+
+p {
+    color: rgb(50, 50, 50);
+    font-family: "Georgia", Georgia, serif;
+    font-size: 1.5em;
+}
