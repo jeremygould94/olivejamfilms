@@ -19,3 +19,17 @@ p {
     font-family: "Georgia", Georgia, serif;
     font-size: 1.5em;
 }
+
+.jeremy_cover img {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.kat_cover img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    overflow: hidden;
+}
