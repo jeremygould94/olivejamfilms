@@ -30,8 +30,8 @@ p {
 
 /* about us images */
 .cover_img img {
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     overflow: hidden;
 }
@@ -147,16 +147,17 @@ p {
   }
 
   @media all and (min-width: 600px) {
+    .main { font-size: 1.6em; }
     .aside { flex: 0.5 0 0; }
-    .footer { font-size: 1.5em; }
+    .footer { font-size: 4em; }
   }
   
   @media all and (min-width: 800px) {
-    .main    { flex: 5 0px; font-size: 1.5em; }
-    .aside-1 { order: 1; } 
+    .main    { flex: 20 0px; font-size: 2em; }
+    .aside-1 { order: 1; }
     .main    { order: 2; }
     .aside-2 { order: 3; }
-    .footer  { order: 4; font-size: 1.4em; }
+    .footer  { order: 4; font-size: 4em; }
     .subfooter { order: 5; }
   }
 
