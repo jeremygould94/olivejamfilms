@@ -1,5 +1,7 @@
+/* body text and headers */
 body {
-    background-color: rgb(250, 250, 250);
+    background: rgb(250, 250, 250);
+    background: linear-gradient(90deg, rgb(235, 235, 235) 0%, rgb(250, 250, 250) 50%, rgb(235, 235, 235) 100%);
   }
 
 h1 {
@@ -20,6 +22,7 @@ p {
     font-size: 1.5em;
 }
 
+/* about us images */
 .jeremy_cover img {
     width: 50%;
     height: 50%;
@@ -33,3 +36,50 @@ p {
     object-fit: cover;
     overflow: hidden;
 }
+
+/* navigation bar */
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+    list-style: none;
+    margin: 0; 
+    background: rgb(134, 170, 136);
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    font-size: 1.1em;
+    font-family: "Georgia", Georgia, serif;
+    color: white;
+  }
+  
+  .navigation a:hover {
+    background: rgb(95, 148, 97);
+  }
+  
+  @media all and (max-width: 800px) {
+    .navigation {
+      justify-content: space-around;
+    }
+  }
+  
+  @media all and (max-width: 600px) {
+    .navigation {
+      flex-flow: column wrap;
+      padding: 0;
+    }
+    .navigation a { 
+      text-align: center; 
+      padding: 10px;
+      border-top: 1px solid rgba(255, 255, 255,0.3); 
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+    }
+    .navigation li:last-of-type a {
+      border-bottom: none;
+    }
+  }
+  
