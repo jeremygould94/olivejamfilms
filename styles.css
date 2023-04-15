@@ -22,6 +22,12 @@ h3 {
     font-size: 1.5em; 
 }
 
+h4 {
+  color: rgb(170, 170, 170);
+  font-family: "Georgia", Georgia, serif;
+  font-weight: normal
+}
+
 p {
     color: rgb(50, 50, 50);
     font-family: "Georgia", Georgia, serif;
@@ -34,6 +40,10 @@ p {
 
 .div_lefttext {
   text-align: left;
+}
+
+.div_centertext {
+  text-align: center;
 }
 
 /* about us images */
@@ -109,6 +119,25 @@ p {
       }
   }
   
+/* banner layout */
+.banner-container {
+  /* We first create a flex layout context */
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0px;
+  margin: 0;
+  list-style: none;
+}
+
+.banner-item {
+  background: rgba(255, 99, 71, 0);
+  padding: 1px;
+  flex: 1 100%;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+}
+
 /* wrapper layout */
 .wrapper, html, body {
     height: 100%;
@@ -145,18 +174,18 @@ p {
   }
   
   .footer {
-    background: rgba(238, 10, 10, 0.479);
-    font-size: 1.5em;
+    background: linear-gradient(90deg, rgb(8, 32, 16) 0%, rgb(9, 44, 21) 50%, rgb(8, 32, 16) 100%);
   }
 
   .subfooter {
-    background: rgb(87, 26, 184);
+    background: linear-gradient(90deg, rgb(8, 32, 16) 0%, rgb(9, 44, 21) 50%, rgb(8, 32, 16) 100%);
   }
 
   @media all and (min-width: 600px) {
     .main { font-size: 1.6em; }
     .aside { flex: 0.5 0 0; }
-    .footer { font-size: 4em; }
+    .footer { font-size: 2em; }
+    .subfooter { font-size: 2em; }
   }
   
   @media all and (min-width: 800px) {
@@ -164,8 +193,8 @@ p {
     .aside-1 { order: 1; }
     .main    { order: 2; }
     .aside-2 { order: 3; }
-    .footer  { order: 4; font-size: 4em; }
-    .subfooter { order: 5; }
+    .footer  { order: 4; font-size: 1.6em; }
+    .subfooter { order: 5; font-size: 1.6em; }
   }
 
   @media all and (min-width: 1080px) {
@@ -174,7 +203,7 @@ p {
     .main    { order: 2; }
     .aside-2 { order: 3; }
     .footer  { order: 4; font-size: 1.3em; }
-    .subfooter { order: 5; }
+    .subfooter { order: 5; font-size: 1.3em; }
   }
 
   @media all and (min-width: 1350px) {
@@ -183,7 +212,7 @@ p {
     .main    { order: 2; }
     .aside-2 { order: 3; }
     .footer  { order: 4; font-size: 1.2em; }
-    .subfooter { order: 5; }
+    .subfooter { order: 5; font-size: 1.2em; }
   }
 
   @media all and (min-width: 2000px) {
@@ -192,7 +221,7 @@ p {
     .main    { order: 2; }
     .aside-2 { order: 3; }
     .footer  { order: 4; font-size: 1.1em; }
-    .subfooter { order: 5; }
+    .subfooter { order: 5; font-size: 1.1em; }
   }
 
   @media all and (min-width: 2400px) {
@@ -200,7 +229,7 @@ p {
     .aside-1 { order: 1; } 
     .main    { order: 2; }
     .aside-2 { order: 3; }
-    .footer  { order: 4; font-size: 1em; }
+    .footer  { order: 4; }
     .subfooter { order: 5; }
   }
   
