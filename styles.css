@@ -85,11 +85,11 @@ p {
   @media all and (max-width: 1080px) {
     .navigation {
       justify-content: space-around;
-      font-size: 1.5em;
+      font-size: 2em;
     }
   }
   
-  @media all and (max-width: 700px) {
+  @media all and (max-width: 850px) {
     .navigation {
         justify-content: space-around;
         font-size: 1em;
@@ -121,6 +121,7 @@ p {
   .main {
     text-align: center;
     background: rgba(0, 191, 255, 0.5);
+    font-size: 1.5em;
   }
   
   .aside-1 {
@@ -142,7 +143,7 @@ p {
   }
   
   @media all and (min-width: 800px) {
-    .main    { flex: 2.5 0px; }
+    .main    { flex: 5 0px; font-size: 2em; }
     .aside-1 { order: 1; } 
     .main    { order: 2; }
     .aside-2 { order: 3; }
@@ -150,7 +151,7 @@ p {
   }
 
   @media all and (min-width: 1080px) {
-    .main    { flex: 3 0px; }
+    .main    { flex: 2 0px; font-size: 2em; }
     .aside-1 { order: 1; } 
     .main    { order: 2; }
     .aside-2 { order: 3; }
@@ -158,7 +159,7 @@ p {
   }
 
   @media all and (min-width: 1350px) {
-    .main    { flex: 1.2 0px; }
+    .main    { flex: 1.2 0px; font-size: 1em; }
     .aside-1 { order: 1; } 
     .main    { order: 2; }
     .aside-2 { order: 3; }
@@ -166,7 +167,7 @@ p {
   }
 
   @media all and (min-width: 2000px) {
-    .main    { flex: 1.1 0px; }
+    .main    { flex: 1.1 0px; font-size: 1em; }
     .aside-1 { order: 1; } 
     .main    { order: 2; }
     .aside-2 { order: 3; }
@@ -174,7 +175,7 @@ p {
   }
 
   @media all and (min-width: 2400px) {
-    .main    { flex: 0.7 0px; }
+    .main    { flex: 0.7 0px; font-size: 1em; }
     .aside-1 { order: 1; } 
     .main    { order: 2; }
     .aside-2 { order: 3; }
