@@ -72,8 +72,8 @@ p {
 
 /* banner image */
 .banner_img img {
-  width: 30%;
-  height: 30%;
+  width: 20%;
+  height: 20%;
   object-fit: cover;
   overflow: hidden;
 }
@@ -107,8 +107,8 @@ p {
       font-size: 1.1em;
     }
     .banner_img img {
-      width: 40%;
-      height: 40%;
+      width: 30%;
+      height: 30%;
     }
   }
 
@@ -118,12 +118,12 @@ p {
       font-size: 1.2em;
     }
     .banner_img img {
-      width: 60%;
-      height: 60%;
+      width: 40%;
+      height: 40%;
     }
   }
 
-  @media all and (max-width: 1350px) {
+  @media all and (max-width: 1250px) {
     .navigation {
       justify-content: center;
       font-size: 1.3em;
